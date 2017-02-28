@@ -6,6 +6,17 @@
 		body{
 			margin:0;
 			padding:0;
+			height: auto;
+			background: #feeccd;
+			width: 100%;
+		}
+		#main{
+			padding: 0;
+			/*float: left;*/
+			overflow: auto;
+			width: 100%;
+			margin: 0 auto;
+			/*height: auto;*/
 		}
 		.base{
 			padding: 20px;
@@ -13,40 +24,76 @@
 			background: #eee;
 		}
 		#logo{
-
-			height: 100px;
+			/*position: fixed;
+			top: 0;
+			left: 0;*/
+			overflow: auto;
+			float: left;
+			/*display: inline-block;*/
+			height: 200px;
 			width: 200px;
+			background: #fff;	
+		}
+		#logo img{
+			height: 80px;
+			width: 80px;
+		}
+		p.team{
+			top: 20px;
+			left: 120px;
+			position: fixed;
 		}
 		#hw-80{
 			height: 80px;
 			width: 80px;
 		}
+		#center{
+			position: fixed;
+			top: 0;
+			left: 280px;
+			border: red 1px solid;
+			width: auto;
+			/*margin: 0 auto;*/
+			/*clear: both;*/
+			/*display: inline-block;*/
+			/*text-align: center;*/
+		}
 		#right{
-			
-			right: 0;
-			top: 0; 
+			/*position: fixed;
+			top: 0;
+			right: 0;*/
+			float: right;
 			width: 120px;
+			overflow: auto;
+			background: #fff;
+			display: block;
+		}
+		#right img{
+			height: 80px;
+			width: 80px;
 		}
 	</style>
 </head>
-<body style="width: 100%;height: auto;background: #feeccd">
-	<div style="height: auto;" class="base">
+<body>
+	<div class="base" id="main">
 		<div class="base" id="logo">
-			<img src="http://placehold.it/80x80" class="hw-80" style="">
-			<p>my team</p>
+			<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==" class="hw-80">
+			<p class="team">my team</p>
 		</div>
-		<!-- 
-		<div class="base" style="float: left;">
+
+		<div class="base" id="center">
 			<h1>hello</h1>
-			<p>lalalalalalaalallaalal</p>
-			<p>aasasa121378721789</p>
+			<p>威廉·莎士比亚<i>（英语：William Shakespeare，1564年4月23日－1616年4月23日）</i>,华人社会常尊称为莎翁，清末民初鲁迅在</p>
+			<p>威廉·莎士比亚<i>（英语：William Shakespeare，1564年4月23日－1616年4月23日）</i>,华人社会常尊称为莎翁，清末民初鲁迅在</p>
+
 		</div>
-		 -->
+		
 		<div class="base" id="right">
-			<img src="http://placehold.it/80x80" class="hw-80 base">
-			<img src="http://placehold.it/80x80" class="hw-80 base">
-			<img src="http://placehold.it/80x80" class="hw-80 base">
+			<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==" class="hw-80 base">
+			<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==" class="hw-80 base">
+			<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==" class="hw-80 base">
 		</div>
+	
 	</div>
 </body>
 </html>
