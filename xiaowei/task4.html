@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>task0</title>
+	<title>task5</title>
 	<style type="text/css">
 		*{
 			padding: 0;
@@ -36,6 +36,7 @@
 		.left{
 			/*float: left;*/
 			/*top: 60px;*/
+			padding: 10px;
 			width: 66%;
 			background: #fff;
 			border: #fcc;
@@ -44,11 +45,59 @@
 		.right{
 			margin: 10px 10px 0 0;
 			padding: 10px;
-			width: 30%;
+			width: 306px;
 			position: absolute;
 			top: 60px;
 			right: 0;
 			background: #fff;
+			text-align: center;
+			overflow: auto;
+			font: 13px;
+		}
+		.ul{
+			list-style-type: none;
+		}
+		.left-img{
+			overflow: auto;
+		}
+		.img{
+			text-align: center;
+			float: left;
+			border: 1px solid #eee;
+			margin: 10px 10px 5px 5px;
+		}
+		.left-last ol{
+			margin: 0 0 0 20px;
+		}
+		table{
+			text-align: center;
+		}
+		table tr{
+		}
+		table tr th{
+			background: #000;
+			color: #fff;
+			width: 150px;
+		}
+		.last-tr{
+			background: #999;
+			color: #000;
+		}
+		.r-left{
+			position: absolute;
+			right:	220px;
+			/*float: right;*/
+		}
+		.r-right{
+			position: absolute;
+			left: 115px;
+		}
+		.comment{
+			color: #999;
+			font-size: 12px;
+		}
+		textarea{
+			/*height: 100px;*/
 		}
 	</style>
 </head>
@@ -78,7 +127,8 @@
 	<p>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落 换行了</p>
 	<p>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落换行了</p>
 	这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段 <a href="http://github.com">http://baidu.com</a>落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落
-
+</div>
+<div class="left">
 	<h2>另一篇文章的一级标题</h2>
 	<h3>另一篇文章的二级标题</h3>
 	<span>文章作者</span><span>文章发表时间</span>
@@ -87,61 +137,105 @@
 	<p>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段
 	<a href="http://github.com">http://baidu.com</a>落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落</p>
 	<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
-	<ul>
+	<ul class="ul">
 		<li>列表项一</li>
 		<li>列表项二</li>
 		<li>列表项三</li>
 		<li>列表项四</li>
 	</ul>
+</div>
+<div class="left left-img">
 	<h2>图片</h2>
-		&nbsp;&nbsp;&nbsp;<h4>好看的图片</h4>
-		&nbsp;&nbsp;&nbsp;<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
-		&nbsp;&nbsp;&nbsp;<h4>好看的图片</h4>
-		&nbsp;&nbsp;&nbsp;<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
-		&nbsp;&nbsp;&nbsp;<h4>好看的图片</h4>
-		&nbsp;&nbsp;&nbsp;<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
-
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+	<div class="img">
+		<h4>好看的图片</h4>
+		<img src="http://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4MjUyNjY3Nw==">
+	</div>
+</div>
+<div class="left left-last">
 	<h2>另一篇文章的一级标题</h2>
 	<h3>另一篇文章的二级标题</h3>
 	<span>文章作者</span><span>文章发表时间</span>
-	<ul>
+	<ol>
 		<li>排名1</li>
 		<li>排名2</li>
 		<li>排名3</li>
-	</ul>
+	</ol>
 	<p>下面是一个表格</p>
-	<table border="1">
+	<table border="0" cellspacing="0" cellpadding="0">
 		<tr>
-			<th>表头</th>
-			<th>表头</th>
+			<th>表头</th><th>表头</th>
 			<th>表头</th>
 		</tr>
 		<tr>这里
 			<td>表内单元格</td>
 			<td>表内单元格</td>
-			<td>操作</td>
+			<td><a href="">操作</a></td>
 		</tr>
 		<tr>
 			<td>表内单元格</td>
 			<td>表内单元格</td>
-			<td>操作</td>
+			<td><a href="">操作</a></td>
 		</tr>
 		<tr>
 			<td>表内单元格</td>
 			<td>表内单元格</td>
-			<td>操作</td>
+			<td><a href="">操作</a></td>
 		</tr>
 		<tr>
 			<td>表内单元格</td>
 			<td>表内单元格</td>
-			<td>操作</td>
+			<td><a href="">操作</a></td>
 		</tr>
 		<tr>
 			<td>表内单元格</td>
 			<td>表内单元格</td>
-			<td>操作</td>
+			<td><a href="">操作</a></td>
 		</tr>
-		<tr>
+		<tr class="last-tr">
 			<td>总计</td>
 			<td colspan="2">1000</td>
 		</tr>
@@ -149,20 +243,19 @@
 </div>
 
 <div class="right">
-	<h2>这里是一个侧栏</h2>
-	<h3>侧栏注册窗口标题</h3>
-	这里输入邮箱:<input type="text" name="email" placeholder="这里是一个文本输入框"> <br>
-	邮箱格式按要求输入 <br>
-	请输入密码:<input type="password" name="pass" placeholder="这里是一个文本输入框"> <br>
-	请输入密码:<input type="password" name="pass" placeholder="这里是一个文本输入框"> <br>
-	密码请为6～16位数字 <br>
-	性别:<input type="radio" name="sex">男 <input type="radio" name="sex">女 <br>
-	城市 <select> <option>beijing</option> <option>shanghai</option> <option>guangzhou</option></select> <br>
-	爱好<input type="checkbox" name="hoppy">运动
+	<h2>这里是一个侧栏,侧栏注册窗口标题</h2>
+	<div class="r-left">这里输入邮箱:</div> <div class="r-right"><input type="text" name="email" placeholder="这里是一个文本输入框"></div><br>
+	<div class="r-left">&nbsp;</div><div class="r-right comment">邮箱格式按要求输入</div><br>
+	<div class="r-left">请输入密码:</div>  <div class="r-right"><input type="password" name="pass" placeholder="这里是一个文本输入框"> </div> <br>
+	<div class="r-left">请输入密码:</div><div class="r-right"><input type="password" name="pass" placeholder="这里是一个文本输入框"> </div><br>
+	<div class="r-left"></div> <div class="r-right comment">密码请为6～16位数字</div><br>
+	<div class="r-left">性别:</div><div class="r-right"><input type="radio" name="sex" checked="">男 <input type="radio" name="sex">女 </div><br>
+	<div class="r-left">城市:</div> <div class="r-right"><select> <option>beijing</option> <option>shanghai</option> <option>guangzhou</option></select> </div><br>
+	<div class="r-left">爱好:</div><div class="r-right"><input type="checkbox" name="hoppy">运动
 	<input type="checkbox" name="hoppy">艺术
-	<input type="checkbox" name="hoppy">科学 <br>
-	个人描述: <textarea placeholder="这是一个多行输入框，请输入您的个人描述"></textarea>
-	<input type="submit" name="submit" value="确认提交">
+	<input type="checkbox" name="hoppy">科学 </div><br>
+	<div class="r-left">个人描述:</div> <div class="r-right"><textarea placeholder="这是一个多行输入框，请输入您的个人描述"></textarea></div><br><br>
+	<div style="width: 200px;background: blue;text-align: center;margin: 0 auto;border-radius: 5px;"><input style="background: transparent;border: 0;color: #fff" type="submit" name="submit" value="确认提交"></div>
 
 </div>
 <p>版权所有©️</p>
