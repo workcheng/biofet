@@ -99,6 +99,19 @@
 		textarea{
 			/*height: 100px;*/
 		}
+		.bottom-before{
+			margin-bottom: 40px;
+		}
+		.bottom{
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			height: 30px;
+			background: #000;
+			width: 100%;
+			color: #fff;
+			text-align: center;
+		}
 	</style>
 </head>
 <body>
@@ -256,9 +269,11 @@
 	<input type="checkbox" name="hoppy">科学 </div><br>
 	<div class="r-left">个人描述:</div> <div class="r-right"><textarea placeholder="这是一个多行输入框，请输入您的个人描述"></textarea></div><br><br>
 	<div style="width: 200px;background: blue;text-align: center;margin: 0 auto;border-radius: 5px;"><input style="background: transparent;border: 0;color: #fff" type="submit" name="submit" value="确认提交"></div>
-
 </div>
-<p>版权所有©️</p>
+<div class="bottom-before"></div>
+<div class="bottom">
+	<p>版权所有©️</p>
+</div>
 
 </body>
 </html>
