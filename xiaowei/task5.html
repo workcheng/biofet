@@ -9,11 +9,16 @@
 			padding: 0;
 		}
 		.body{
+			background: #fcc;
 			width: 980px;
 			height: 1386px;
+			overflow: auto;
 		}
 		.up{
-
+			position: relative;
+			width: 980px;
+			height: 61px;
+			background: #666;			
 		}
 		.logo{
 			width: 110px;
@@ -21,17 +26,52 @@
 			background: #000;
 			color: #fff;
 			font-size: 12px;
+			float: left;
 		}
 		.date{
 			position: absolute;
 			font-size: 12px;
 			color: #d45d5c;
+			right: 50px;
 			/*float: right;*/
 		}
 		.dec{
 			width: 100%;
 			height: 0.5px;
 			border-top: 1px solid #000;
+		}
+		.window{
+			height: 191px;
+			width: 980px;
+			position: relative;
+		}
+		.banner{
+			position: relative;
+			width: 641px;
+			height: 301px;
+			background: #999;
+			float: left;
+		}
+		.banner-left{
+			position: absolute;
+			left: 0px;
+			width: 191px;
+			height: 301px;
+			background: #cfc;
+		}
+		.banner-right{
+			position: absolute;
+			right: 0px;
+			width: 191px;
+			height: 301px;
+			background: #cfc;
+		}
+		.big-text{
+			height: 301px;
+			width: 339px;
+			position: absolute;
+			right: 0;
+			background: #888;
 		}
 	</style>
 </head>
@@ -44,7 +84,29 @@
 			<div class="date">
 				<h3>2016.03</h3>
 			</div>
-			<div class="dec"></div>
+		</div>
+		<div class="dec"></div>
+		<div class="window">
+			<div class="banner">
+				<div class="banner-left"></div>
+				<div class="banner-right"></div>
+			</div>
+			<div class="big-text">
+				<div style="width: 203px;height: 2px;background: #cc8091"></div>
+				<h1><b>A</b>bout</h1>
+				<h1><b>T</b>echnologe</h1>
+				<div>About technologe about echnologe about echnologe</div>
+				<div style="font-size: 100px;line-height: 100px;">
+					7000
+				</div>
+				<div>
+					<div style="font-size: 55px;line-height: 50px;color: #cc8091;float: left;">3.2</div>
+					<div>
+						<div style="color: #cc8091">css</div>
+						<div style="color: #333">css css css css css css css</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="down"></div>
 	</div>
